@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Catcher Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="target-color">Target Color: <span id="targetColor"></span></div>
+    <div id="game-container"></div>
+    <div id="score">Score: 0</div>
+    <div class="controls">
+        <button onclick="startGame()">Start</button>
+        <button onclick="stopGame()">Stop</button>
+        <button onclick="restartGame()">Restart</button>
+    </div>
+
+    <audio id="hitSound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+    <audio id="missSound" src="https://www.soundjay.com/button/beep-10.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
